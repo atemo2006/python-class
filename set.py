@@ -1,0 +1,12 @@
+courses = {'HTML', 'CSS', 'JAVA', 'PYTHON', 'JS'}
+print(courses)
+courses.add('ANIMATION')
+print(courses)
+courses.remove('CSS')
+print(courses)
+courses.update('GRAPHIC UPDATE')
+print(courses)
+courses.pop()
+print(courses) 
+new_courses = courses.copy()
+print(new_courses)
